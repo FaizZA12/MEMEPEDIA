@@ -1,0 +1,48 @@
+pesan commit:(sidebar) feat: add sidebar
+
+pesan commit:(navbar) feat: navbar dan isi section
+karena masuknya 2 fitur kedalam 1 main sehingga terjadi konflik dan diselesaikan dengan memilih keduanya sebab punya fitur yang berbeda
+ git log --oneline --graph --all
+* 5cb26b4 (origin/fitur-sidebar, fitur-sidebar) feat: perubahan sidebar
+* 9cdf728 (HEAD -> main) feat : ada kesalahan
+* 6a42395 (sidebar) feat: add sidebar
+* e641251 memepedia
+
+ git branch -r
+  origin/fitur-sidebar
+
+commit e6412518cace24692e45aca8c06c8da1aa86f5e5
+Author: (FaizA12) <f41zz1y4d4bd1l4h@gmail.com>
+Date:   Thu Aug 21 09:25:21 2025 +0700
+
+    memepedia
+
+diff --git a/Project_Akhir/index.html b/Project_Akhir/index.html
+new file mode 100644
+index 0000000..31bc711
+--- /dev/null
++++ b/Project_Akhir/index.html
+@@ -0,0 +1,20 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Project Akhir</title>
++</head>
++<body>
++    <header>
++        <h1 style="text-align: center;"><b>MEMEPEDIA</b></h1>
++    </header>
++
++    <!-- NavBar -->
++    <div>
++        <section>
++
++        </section>
++    </div>
++</body>
++</html>
+\ No newline at end of file
+Faiz: Ketua, Farid: (feat: navbar), Thoriq: (feat: sidebar)
+
